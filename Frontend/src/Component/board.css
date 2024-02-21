@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com");
+
+*>*{
+    box-sizing: border-box;
+    font-family: "Poppinds", sans-serif;
+    margin: 0;
+}
+
+body{
+    --color-dark:gray;
+    --color-light:pink;
+    --panelColor:yellow;
+    --active:rgb(82, 184, 152);
+    background-color: rgb(226, 234, 240);
+}
+
+#site-main{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 90vh;
+}
+
+#site-main .board{
+    padding: 1em 0;
+    border-radius: 2em;
+}
+
+.text-dark{
+    color:var(--color-dark);
+}
+
+.text-light{
+    color: var(--color-light);
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul>li .flex{
+    color: var(--color-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-top: 1em;
+    text-align: left;
+    background-color: var(--active);
+    padding: 1em 0;
+    border-radius: 10px;
+    box-shadow: 1px 10px 2px gray;
+}
+
+ul>li img{
+    border-radius: 50%;
+    width: 20%;
+}
+
+.upcomming{
+    margin-top: 1em;
+}
+
+.upheading{
+    margin: 10px;
+    margin-top: 20px;
+}
